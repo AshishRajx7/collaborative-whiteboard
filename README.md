@@ -13,10 +13,10 @@ A real-time collaborative whiteboard that allows multiple users to draw together
 
 ## Tech Stack
 
-- Frontend: React, React Router, WebSockets, React Color
-- Backend: FastAPI, WebSockets
-- Deployment: Docker, Railway
-- Version Control: Git, GitHub
+- **Frontend:** React, React Router, WebSockets, React Color
+- **Backend:** FastAPI, WebSockets
+- **Deployment:** Docker, Railway
+- **Version Control:** Git, GitHub
 
 ---
 
