@@ -3,7 +3,9 @@
 A real-time collaborative whiteboard that allows multiple users to draw together in shared rooms. Built with FastAPI WebSockets, React, Docker, and Railway. Each room is uniquely generated and fully isolated for seamless multi-user sessions.
 
 ---
-
+##Live Demo
+- Frontend: https://collaborative-whiteboard-frontend-production.up.railway.app
+- Backend: https://collaborative-whiteboard-backend-production.up.railway.app/ping
 
 
 ## Tech Stack
