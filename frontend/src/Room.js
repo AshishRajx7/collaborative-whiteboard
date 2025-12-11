@@ -14,7 +14,8 @@ function Room() {
   const isDrawing = useRef(false);
 
   useEffect(() => {
-    const ws = new WebSocket(`wss://collaborative-whiteboard-backend-production.up.railway.app/ws/${roomId}`);
+const backend = process.env.REACT_APP_BACKEND_URL;
+const ws = new WebSocket(`${backend.replace("http", "ws")}/ws/${roomId}`);
     setSocket(ws);
 
     ws.onopen = () => setStatus('Connected');
