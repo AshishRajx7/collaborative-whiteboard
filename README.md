@@ -1,18 +1,18 @@
 # Collaborative Whiteboard
 
-A real-time collaborative whiteboard that allows multiple users to draw together in shared rooms. Built with FastAPI WebSockets, React, Docker, and Railway. Each room is uniquely generated and fully isolated for seamless multi-user sessions.
+A real-time collaborative whiteboard that allows multiple users to draw together in shared rooms. Built with FastAPI WebSockets, React, Docker, Render and Vercel. Each room is uniquely generated and fully isolated for seamless multi-user sessions.
 
 ---
 ##Live Demo
-- Frontend: https://collaborative-whiteboard-frontend-production.up.railway.app
-- Backend: https://collaborative-whiteboard-backend-production.up.railway.app/ping
+- Frontend: https://collaborative-whiteboard-ruby.vercel.app/
+- Backend: https://collaborative-whiteboard-oyyj.onrender.com
 
 
 ## Tech Stack
 
 - **Frontend:** React, React Router, WebSockets, React Color
 - **Backend:** FastAPI, WebSockets
-- **Deployment:** Docker, Railway
+- **Deployment:** Docker, Render and Vercel
 - **Version Control:** Git, GitHub
 
 ---
@@ -64,7 +64,7 @@ npm start
 Open http://localhost:3000 to use the app locally.
 
 Deployment
-Backend and Frontend are deployed on Railway.
+Backend and Frontend are deployed on Render and Vercel respectively.
 
 Automated builds and redeployments are triggered via GitHub push using the Dockerfile.
 
