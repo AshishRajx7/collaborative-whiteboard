@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = ["https://collaborative-whiteboard-frontend-production.up.railway.app"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
@@ -11,6 +11,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 rooms = {}
 
